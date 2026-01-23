@@ -7,7 +7,7 @@ emails = set()       # Track unique emails
 
 # --- FUNCTIONS ---
 
-# 1️⃣ Add Student
+# 1 Add Student
 def add_student():
     try:
         sid = int(input("Enter Student ID: "))
@@ -111,7 +111,7 @@ def update_student():
     print(">> Student not found!\n")
 
 
-# 3️⃣ Print Student Info
+# 3 Print Student Info
 def print_student_info():
     try:
         sid = int(input("Enter student ID: "))
@@ -132,7 +132,7 @@ def print_student_info():
     print(">> Student not found!\n")
 
 
-# 4️⃣ Analytics
+# 4 Analytics
 def analytics():
     if not students:
         print(">> No students yet!\n")
